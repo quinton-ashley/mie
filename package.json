@@ -1,0 +1,33 @@
+{
+	"author": "quinton-ashley",
+	"name": "mie",
+	"version": "1.0.0",
+	"description": "mini editor for embedding p5.js sketches",
+	"license": "GPL-3.0-only",
+	"main": "mie.js",
+	"scripts": {
+		"v": "npm version patch --force",
+		"V": "npm version minor --force",
+		"version": "git add -A",
+		"postversion": "git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/quinton-ashley/mie.git"
+	},
+	"keywords": [
+		"p5 embed",
+		"p5.js embed",
+		"embed p5",
+		"embed p5.js",
+		"p5",
+		"p5.js",
+		"q5",
+		"q5js",
+		"q5.js"
+	],
+	"bugs": {
+		"url": "https://github.com/quinton-ashley/mie/issues"
+	},
+	"homepage": "https://github.com/quinton-ashley/mie#readme"
+}
