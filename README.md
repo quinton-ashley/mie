@@ -18,7 +18,7 @@ Add p5.js scripts to your page and they will be embedded in an editor with an in
 ```html
 <script type="text/mie-p5" name="Sketch">
 	function setup() {
-	  createCanvas(100, 100);
+		createCanvas(100, 100);
 	}
 	function draw() {
 		background('blue');
