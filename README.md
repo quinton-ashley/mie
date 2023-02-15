@@ -16,7 +16,7 @@ Add mie and the Ace online editor to your HTML:
 Add p5.js scripts to your page and they will be embedded in an editor with an instanced preview of the sketch auto-playing by default.
 
 ```html
-<script type="text/mie-p5" name="Sketch">
+<script type="mie/p5" name="Sketch">
 	function setup() {
 		createCanvas(100, 100);
 	}
