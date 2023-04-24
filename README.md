@@ -55,7 +55,13 @@ window.mie = {
 };
 ```
 
-You can then load just the p5.js scripts inside an element by using the `mie.loadMinis` function.
+Then load mie after the ace editor has loaded:
+
+```js
+mie.load();
+```
+
+Then you can load only the mie scripts contained inside an specific HTML element by using the `mie.loadMinis` function. This is good if you have multiple pages of content in one HTML file and you want to load the sketches on each page separately.
 
 ```js
 mie.loadMinis(elem);
