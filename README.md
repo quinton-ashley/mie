@@ -6,10 +6,12 @@ Example use: https://p5play.org/learn/sprite.html
 
 ## Usage
 
-Add mie and the Ace online editor to your HTML:
+Load the Ace editor and mie in your HTML:
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.8.1/ace.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ace-builds@1.18.0/src-min-noconflict/ace.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ace-builds@1.18.0/src-min-noconflict/ext-language_tools.js"></script>
+
 <script src="https://quinton-ashley.github.io/mie/mie.js"></script>
 ```
 
@@ -26,18 +28,12 @@ Add p5.js scripts to your page and they will be embedded in an editor with an in
 </script>
 ```
 
-mie hopefully will also available as a npm package soon:
-
-```bash
-npm i mie
-```
-
 ## Options
 
 You can add properties to the script tag to adjust the mie player to your liking. Here's an example that limits the height of the editor to 10 lines.
 
 ```html
-<script type="text/mie-p5" name="Sketch" lines="10">
+<script type="mie/p5" name="Sketch" lines="10">
 ```
 
 Other property options include:  
