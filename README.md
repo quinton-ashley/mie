@@ -2,7 +2,7 @@
 
 mie is great for embedding p5.js sketches on your own website.
 
-Example use: https://p5play.org/learn/sprite.html
+Demo: https://p5play.org/learn/sprite.html
 
 ## Usage
 
@@ -13,6 +13,12 @@ Load the Ace editor and mie in your HTML:
 <script src="https://cdn.jsdelivr.net/npm/ace-builds@1.18.0/src-min-noconflict/ext-language_tools.js"></script>
 
 <script src="https://quinton-ashley.github.io/mie/mie.js"></script>
+```
+
+Or use [mie](https://www.npmjs.com/package/@qashto/mie) via npm:
+
+```bash
+npm i @qashto/mie
 ```
 
 Add p5.js scripts to your page and they will be embedded in an editor with an instanced preview of the sketch auto-playing by default.
